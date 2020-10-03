@@ -1,3 +1,5 @@
+//this cpp program let you sort an array with time complexty of O(n*Log n)
+
 #include<bits/stdc++.h>
 using namespace std;
 int merge(int arr[],int start, int mid,int mid2, int end)
