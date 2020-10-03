@@ -22,11 +22,11 @@ int minimum(int A[], int n){
     return mn;
     
 }
-
+// Main function (execute first)
 int main(){
     int A[] = {1, 3, 4, 1}; 
     int size = (sizeof(A)/sizeof(int));
-    //printing the sum
+    // below line print the sum
     printf("%d",minimum(A, size) + maximum(A, size) );
     return 0;
 }
